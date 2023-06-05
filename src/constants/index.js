@@ -36,7 +36,11 @@ import {
     sql,
     aws,
     python,
-    kubernetes
+    kubernetes,
+    swagger,
+    cdn,
+    grpc,
+    eventy,
   } from "../assets";
   
   export const navLinks = [
@@ -273,33 +277,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Content Delivery Network",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The project aims to create a web application to develop a Content Delivery Network. The project optimizes content transmission by duplicating and distributing it to substitute servers at the edge of the Internet, reducing network and server traffic for faster user responses.",
       tags: [
         {
-          name: "react",
+          name: "Express.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "AWS S3 bucket",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cdn,
+      source_code_link: "https://github.com/neha2499/ContentDeliveryNetwork",
     },
     {
-      name: "Job IT",
+      name: "Skiing Industry Digitization",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Objective is to create a client/server distributed system model for ski resorts. The idea is to develop RestAPI in order to have ski resorts employ RFID lift ticket readers to automatically log the skier’s ID and ride duration each time they use a ski lift.",
       tags: [
         {
-          name: "react",
+          name: "SpringBoot",
           color: "blue-text-gradient",
         },
         {
@@ -307,33 +311,66 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
+        {
+          name: "Oracle Cloud Instance",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: swagger,
+      source_code_link: "https://github.com/neha2499/Skiing_Industry_Digitization",
     },
     {
-      name: "Trip Guide",
+      name: "Eventy",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Eventy is the web application tool for organizing the successful event. Managing the event is the arduous responsibility irrespective of the event type. Along with that it is crucial to gather important feedback from the attendee to analyze the principal elements for future references.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "AWS Ec2",
           color: "pink-text-gradient",
         },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: eventy,
+      source_code_link: "https://github.com/ermayank/eventy",
+    },
+    {
+      name: "Educational Cost Statistics",
+      description:
+        "The project involves creating protobuff files, GRPC services, and client-server code to facilitate RPC calls and Leveraged MongoDB Aggregation pipeline to handle large and complex data processing tasks on a public data source.",
+      tags: [
+        {
+          name: "SpringBoot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB aggregation pipeline",
+          color: "green-text-gradient",
+        },
+        {
+          name: "grpc",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CI/CD",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: grpc,
+      source_code_link: "https://github.com/neha2499/grpc_spring_boot",
     },
   ];
   

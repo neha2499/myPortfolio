@@ -47,6 +47,11 @@ import aws from "./tech/aws.png";
 import python from "./tech/python.png";
 import kubernetes from "./tech/kubernetes.png";
 
+import grpc from "./projects/grpc.png";
+import cdn from "./projects/cdn.png";
+import eventy from "./projects/eventy.png";
+import swagger from "./projects/swagger.png"
+
 export {
   logo,
   backend,
@@ -89,5 +94,9 @@ export {
   sql,
   aws,
   python,
-  kubernetes
+  kubernetes,
+  swagger,
+  cdn,
+  eventy,
+  grpc
 };
